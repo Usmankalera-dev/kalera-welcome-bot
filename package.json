@@ -1,0 +1,1 @@
+{"dependencies":{"jsonwebtoken":"^9.0.2"},"description":"GitHub App webhook server that welcomes first-time contributors to a repository","engines":{"node":">=18"},"name":"kalera-welcome-bot","private":true,"scripts":{"check":"node --check api/webhook.js && node --check test/local-test.js","test":"node test/local-test.js"},"version":"0.1.0"}
